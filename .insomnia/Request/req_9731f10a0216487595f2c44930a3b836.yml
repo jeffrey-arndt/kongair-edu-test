@@ -1,0 +1,38 @@
+_id: req_9731f10a0216487595f2c44930a3b836
+type: Request
+parentId: fld_12ed0c9657c346e59515d6e2f8a9e6c9
+modified: 1733702000961
+created: 1733701914504
+url: "{{ _.base_url }}/bookings"
+name: Create a new customer booking
+description: Endpoint that creates a bookings.
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "flight_number": "KA0284",
+      "seat": "3A"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication:
+  type: apikey
+  disabled: false
+  key: x-consumer-username
+  value: jdoe
+  addTo: header
+preRequestScript: null
+metaSortKey: -1733701914504
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

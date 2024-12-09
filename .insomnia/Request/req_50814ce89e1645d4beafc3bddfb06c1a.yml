@@ -1,0 +1,24 @@
+_id: req_50814ce89e1645d4beafc3bddfb06c1a
+type: Request
+parentId: fld_66e2003c3c4347cba358ab90a8268825
+modified: 1733701914501
+created: 1733701914501
+url: "{{ _.base_url }}/health"
+name: Health check endpoint for Kubernetes
+description: Endpoint that returns the service health status.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+preRequestScript: null
+metaSortKey: -1733701914501
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

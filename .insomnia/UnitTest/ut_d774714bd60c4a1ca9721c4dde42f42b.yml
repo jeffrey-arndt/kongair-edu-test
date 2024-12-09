@@ -1,0 +1,13 @@
+_id: ut_d774714bd60c4a1ca9721c4dde42f42b
+type: UnitTest
+parentId: uts_e948b5aa1f6c42779015b8c1716900e6
+modified: 1733702269668
+created: 1733702190586
+requestId: req_9731f10a0216487595f2c44930a3b836
+name: Returns valid JSON
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(201);
+  const body = JSON.parse(response1.data);
+  expect(body).to.have.all.keys('ticket_number');
+metaSortKey: -1733702190586

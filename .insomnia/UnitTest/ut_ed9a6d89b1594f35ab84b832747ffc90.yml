@@ -1,0 +1,11 @@
+_id: ut_ed9a6d89b1594f35ab84b832747ffc90
+type: UnitTest
+parentId: uts_e948b5aa1f6c42779015b8c1716900e6
+modified: 1733702165560
+created: 1733702124465
+requestId: req_50814ce89e1645d4beafc3bddfb06c1a
+name: Health Returns 200
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);
+metaSortKey: -1733702124467

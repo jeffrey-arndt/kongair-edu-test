@@ -1,0 +1,11 @@
+_id: ut_f3277ff1233f458798507df685790407
+type: UnitTest
+parentId: uts_e948b5aa1f6c42779015b8c1716900e6
+modified: 1733702116878
+created: 1733702096351
+requestId: req_f3525c248af7434fbdea3fc88a31fdf9
+name: List Bookings Returns 200
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);
+metaSortKey: -1733702096351

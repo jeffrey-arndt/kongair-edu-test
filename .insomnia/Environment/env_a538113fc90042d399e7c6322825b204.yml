@@ -1,0 +1,20 @@
+_id: env_a538113fc90042d399e7c6322825b204
+type: Environment
+parentId: env_e19e66cf4c363a89fc8ed0ef2a322c2156dba474
+modified: 1733700198009
+created: 1733700064891
+name: OpenAPI env wyfqoath2jswkqsjj-64f9beb93d37cdb1734db29a.labs.strigo.io:5054
+data:
+  scheme: http
+  base_path: ""
+  host: wyfqoath2jswkqsjj-64f9beb93d37cdb1734db29a.labs.strigo.io:5054
+  base_url: http://wyfqoath2jswkqsjj-64f9beb93d37cdb1734db29a.labs.strigo.io:5054
+dataPropertyOrder:
+  "&":
+    - scheme
+    - base_path
+    - host
+    - base_url
+color: null
+isPrivate: false
+metaSortKey: 1733700064891

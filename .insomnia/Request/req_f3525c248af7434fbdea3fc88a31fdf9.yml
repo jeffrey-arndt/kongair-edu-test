@@ -1,0 +1,29 @@
+_id: req_f3525c248af7434fbdea3fc88a31fdf9
+type: Request
+parentId: fld_12ed0c9657c346e59515d6e2f8a9e6c9
+modified: 1733702035588
+created: 1733701914502
+url: "{{ _.base_url }}/bookings"
+name: Get a customers current bookings
+description: Endpoint that returns all bookings.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: apikey
+  disabled: false
+  key: x-consumer-username
+  value: jdoe
+  addTo: header
+preRequestScript: null
+metaSortKey: -1733701914502
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
